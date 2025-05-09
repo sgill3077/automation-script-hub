@@ -1,6 +1,6 @@
 # Automation Script Hub
 
-**Automation Script Hub** is a personal toolkit of modular Bash scripts designed to streamline and simplify routine system administration tasks on Linux and Unix environments.
+**Automation Script Hub is a curated collection of modular Bash scripts that automate and simplify routine system administration tasks in Linux/Unix environments — ideal for DevOps, SysAdmins, and power users.
 
 ## 🔧 Features
 
@@ -44,3 +44,7 @@ cd automation-script-hub
 chmod +x scripts/*.sh
 ./scripts/patch_manager.sh
 
+$ ./scripts/patch_manager.sh
+[INFO] Checking for available updates...
+[INFO] Installing security updates...
+[OK] System successfully patched.
