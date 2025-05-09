@@ -1,0 +1,541 @@
+[2025-05-08 21:49:42] Starting system patching...
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Cleaning repos: amzn2-core amzn2extra-docker amzn2extra-epel
+              : amzn2extra-kernel-5.10 amzn2extra-nginx1 epel
+Cleaning up everything
+Maybe you want: rm -rf /var/cache/yum, to also free up space taken by orphaned data from disabled or removed repos
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+239 packages excluded due to repository priority protections
+Resolving Dependencies
+--> Running transaction check
+---> Package amazon-cloudwatch-agent.x86_64 0:1.300044.0-1.amzn2 will be updated
+---> Package amazon-cloudwatch-agent.x86_64 0:1.300052.1-1.amzn2 will be an update
+---> Package amazon-ssm-agent.x86_64 0:3.3.1611.0-1.amzn2 will be updated
+---> Package amazon-ssm-agent.x86_64 0:3.3.1957.0-1.amzn2 will be an update
+---> Package amd-ucode-firmware.noarch 0:20200421-83.git78c0348.amzn2 will be updated
+---> Package amd-ucode-firmware.noarch 0:20200421-84.git78c0348.amzn2 will be an update
+---> Package aws-cfn-bootstrap.noarch 0:2.0-32.amzn2 will be updated
+---> Package aws-cfn-bootstrap.noarch 0:2.0-34.amzn2 will be an update
+---> Package binutils.x86_64 0:2.29.1-31.amzn2.0.1 will be updated
+---> Package binutils.x86_64 0:2.29.1-31.amzn2.0.2 will be an update
+---> Package cloud-init.noarch 0:19.3-46.amzn2.0.4 will be updated
+---> Package cloud-init.noarch 0:19.3-46.amzn2.0.5 will be an update
+---> Package containerd.x86_64 0:1.7.25-1.amzn2.0.1 will be updated
+---> Package containerd.x86_64 0:1.7.27-1.amzn2.0.2 will be an update
+---> Package curl.x86_64 0:8.3.0-1.amzn2.0.8 will be updated
+---> Package curl.x86_64 0:8.3.0-1.amzn2.0.9 will be an update
+---> Package docker.x86_64 0:25.0.6-1.amzn2.0.3 will be updated
+---> Package docker.x86_64 0:25.0.8-1.amzn2.0.3 will be an update
+---> Package expat.x86_64 0:2.1.0-15.amzn2.0.4 will be updated
+---> Package expat.x86_64 0:2.1.0-15.amzn2.0.5 will be an update
+---> Package freetype.x86_64 0:2.8-14.amzn2.1.2 will be updated
+---> Package freetype.x86_64 0:2.8-14.amzn2.1.4 will be an update
+---> Package glib2.x86_64 0:2.56.1-9.amzn2.0.8 will be updated
+---> Package glib2.x86_64 0:2.56.1-9.amzn2.0.9 will be an update
+---> Package glibc.x86_64 0:2.26-64.amzn2.0.3 will be updated
+---> Package glibc.x86_64 0:2.26-64.amzn2.0.4 will be an update
+---> Package glibc-all-langpacks.x86_64 0:2.26-64.amzn2.0.3 will be updated
+---> Package glibc-all-langpacks.x86_64 0:2.26-64.amzn2.0.4 will be an update
+---> Package glibc-common.x86_64 0:2.26-64.amzn2.0.3 will be updated
+---> Package glibc-common.x86_64 0:2.26-64.amzn2.0.4 will be an update
+---> Package glibc-locale-source.x86_64 0:2.26-64.amzn2.0.3 will be updated
+---> Package glibc-locale-source.x86_64 0:2.26-64.amzn2.0.4 will be an update
+---> Package glibc-minimal-langpack.x86_64 0:2.26-64.amzn2.0.3 will be updated
+---> Package glibc-minimal-langpack.x86_64 0:2.26-64.amzn2.0.4 will be an update
+---> Package grub2.x86_64 1:2.06-14.amzn2.0.4 will be obsoleted
+---> Package grub2.x86_64 1:2.06-14.amzn2.0.6 will be obsoleting
+---> Package grub2-common.noarch 1:2.06-14.amzn2.0.4 will be updated
+---> Package grub2-common.noarch 1:2.06-14.amzn2.0.6 will be an update
+---> Package grub2-efi-x64-ec2.x86_64 1:2.06-14.amzn2.0.4 will be updated
+---> Package grub2-efi-x64-ec2.x86_64 1:2.06-14.amzn2.0.6 will be an update
+---> Package grub2-pc.x86_64 1:2.06-14.amzn2.0.4 will be updated
+---> Package grub2-pc.x86_64 1:2.06-14.amzn2.0.6 will be obsoleting
+---> Package grub2-pc-modules.noarch 1:2.06-14.amzn2.0.4 will be updated
+---> Package grub2-pc-modules.noarch 1:2.06-14.amzn2.0.6 will be an update
+---> Package grub2-tools.x86_64 1:2.06-14.amzn2.0.4 will be obsoleted
+---> Package grub2-tools.x86_64 1:2.06-14.amzn2.0.6 will be obsoleting
+---> Package grub2-tools-efi.x86_64 1:2.06-14.amzn2.0.6 will be obsoleting
+---> Package grub2-tools-extra.x86_64 1:2.06-14.amzn2.0.6 will be obsoleting
+---> Package grub2-tools-minimal.x86_64 1:2.06-14.amzn2.0.4 will be updated
+---> Package grub2-tools-minimal.x86_64 1:2.06-14.amzn2.0.6 will be obsoleting
+---> Package kernel.x86_64 0:5.10.236-227.928.amzn2 will be installed
+---> Package kernel-tools.x86_64 0:5.10.233-224.894.amzn2 will be updated
+---> Package kernel-tools.x86_64 0:5.10.236-227.928.amzn2 will be an update
+---> Package libcap.x86_64 0:2.54-1.amzn2.0.2 will be updated
+---> Package libcap.x86_64 0:2.54-1.amzn2.0.3 will be an update
+---> Package libcrypt.x86_64 0:2.26-64.amzn2.0.3 will be updated
+---> Package libcrypt.x86_64 0:2.26-64.amzn2.0.4 will be an update
+---> Package libcurl.x86_64 0:8.3.0-1.amzn2.0.8 will be updated
+---> Package libcurl.x86_64 0:8.3.0-1.amzn2.0.9 will be an update
+---> Package libxml2.x86_64 0:2.9.1-6.amzn2.5.14 will be updated
+---> Package libxml2.x86_64 0:2.9.1-6.amzn2.5.16 will be an update
+---> Package libxml2-python.x86_64 0:2.9.1-6.amzn2.5.14 will be updated
+---> Package libxml2-python.x86_64 0:2.9.1-6.amzn2.5.16 will be an update
+---> Package microcode_ctl.x86_64 2:2.1-47.amzn2.4.22 will be updated
+---> Package microcode_ctl.x86_64 2:2.1-47.amzn2.4.24 will be an update
+---> Package nginx.x86_64 1:1.22.1-1.amzn2.0.4 will be updated
+---> Package nginx.x86_64 1:1.26.3-1.amzn2.0.1 will be an update
+---> Package nginx-core.x86_64 1:1.22.1-1.amzn2.0.4 will be updated
+---> Package nginx-core.x86_64 1:1.26.3-1.amzn2.0.1 will be an update
+---> Package nginx-filesystem.noarch 1:1.22.1-1.amzn2.0.4 will be updated
+---> Package nginx-filesystem.noarch 1:1.26.3-1.amzn2.0.1 will be an update
+---> Package openssh.x86_64 0:7.4p1-22.amzn2.0.8 will be updated
+---> Package openssh.x86_64 0:7.4p1-22.amzn2.0.9 will be an update
+---> Package openssh-clients.x86_64 0:7.4p1-22.amzn2.0.8 will be updated
+---> Package openssh-clients.x86_64 0:7.4p1-22.amzn2.0.9 will be an update
+---> Package openssh-server.x86_64 0:7.4p1-22.amzn2.0.8 will be updated
+---> Package openssh-server.x86_64 0:7.4p1-22.amzn2.0.9 will be an update
+---> Package openssl.x86_64 1:1.0.2k-24.amzn2.0.14 will be updated
+---> Package openssl.x86_64 1:1.0.2k-24.amzn2.0.15 will be an update
+---> Package openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.14 will be updated
+---> Package openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.15 will be an update
+---> Package openssl11-libs.x86_64 1:1.1.1za-1.amzn2.0.1 will be updated
+---> Package openssl11-libs.x86_64 1:1.1.1zb-1.amzn2.0.1 will be an update
+---> Package python.x86_64 0:2.7.18-1.amzn2.0.10 will be updated
+---> Package python.x86_64 0:2.7.18-1.amzn2.0.12 will be an update
+---> Package python-devel.x86_64 0:2.7.18-1.amzn2.0.10 will be updated
+---> Package python-devel.x86_64 0:2.7.18-1.amzn2.0.12 will be an update
+---> Package python-ipaddress.noarch 0:1.0.16-2.amzn2.0.2 will be updated
+---> Package python-ipaddress.noarch 0:1.0.16-2.amzn2.0.3 will be an update
+---> Package python-jinja2.noarch 0:2.7.2-3.amzn2.0.3 will be updated
+---> Package python-jinja2.noarch 0:2.7.2-3.amzn2.0.4 will be an update
+---> Package python-jwcrypto.noarch 0:0.4.2-1.amzn2.0.1 will be updated
+---> Package python-jwcrypto.noarch 0:0.4.2-1.amzn2.0.2 will be an update
+---> Package python-libs.x86_64 0:2.7.18-1.amzn2.0.10 will be updated
+---> Package python-libs.x86_64 0:2.7.18-1.amzn2.0.12 will be an update
+---> Package python-lockfile.noarch 1:0.9.1-4.amzn2 will be obsoleted
+---> Package python-pillow.x86_64 0:2.0.0-23.gitd1c6db8.amzn2.0.13 will be updated
+---> Package python-pillow.x86_64 0:2.0.0-23.gitd1c6db8.amzn2.0.16 will be an update
+---> Package python-requests.noarch 0:2.6.0-10.amzn2.0.3 will be updated
+---> Package python-requests.noarch 0:2.6.0-10.amzn2.0.5 will be an update
+---> Package python-simplejson.x86_64 0:3.2.0-1.amzn2.0.2 will be obsoleted
+---> Package python2-lockfile.noarch 1:0.11.0-17.el7 will be obsoleting
+---> Package python2-simplejson.x86_64 0:3.11.1-1.el7 will be obsoleting
+---> Package tzdata.noarch 0:2024a-1.amzn2.0.1 will be updated
+---> Package tzdata.noarch 0:2025b-1.amzn2.0.1 will be an update
+---> Package vim-common.x86_64 2:9.0.2153-1.amzn2.0.2 will be updated
+---> Package vim-common.x86_64 2:9.0.2153-1.amzn2.0.4 will be an update
+---> Package vim-data.noarch 2:9.0.2153-1.amzn2.0.2 will be updated
+---> Package vim-data.noarch 2:9.0.2153-1.amzn2.0.4 will be an update
+---> Package vim-enhanced.x86_64 2:9.0.2153-1.amzn2.0.2 will be updated
+---> Package vim-enhanced.x86_64 2:9.0.2153-1.amzn2.0.4 will be an update
+---> Package vim-filesystem.noarch 2:9.0.2153-1.amzn2.0.2 will be updated
+---> Package vim-filesystem.noarch 2:9.0.2153-1.amzn2.0.4 will be an update
+---> Package vim-minimal.x86_64 2:9.0.2153-1.amzn2.0.2 will be updated
+---> Package vim-minimal.x86_64 2:9.0.2153-1.amzn2.0.4 will be an update
+---> Package xxd.x86_64 2:9.0.2153-1.amzn2.0.2 will be updated
+---> Package xxd.x86_64 2:9.0.2153-1.amzn2.0.4 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch   Version                Repository              Size
+================================================================================
+Installing:
+ grub2               x86_64 1:2.06-14.amzn2.0.6    amzn2-core              47 k
+     replacing  grub2.x86_64 1:2.06-14.amzn2.0.4
+ grub2-pc            x86_64 1:2.06-14.amzn2.0.6    amzn2-core              46 k
+     replacing  grub2.x86_64 1:2.06-14.amzn2.0.4
+ grub2-tools         x86_64 1:2.06-14.amzn2.0.6    amzn2-core             2.0 M
+     replacing  grub2-tools.x86_64 1:2.06-14.amzn2.0.4
+ grub2-tools-efi     x86_64 1:2.06-14.amzn2.0.6    amzn2-core             561 k
+     replacing  grub2-tools.x86_64 1:2.06-14.amzn2.0.4
+ grub2-tools-extra   x86_64 1:2.06-14.amzn2.0.6    amzn2-core             1.0 M
+     replacing  grub2-tools.x86_64 1:2.06-14.amzn2.0.4
+ grub2-tools-minimal x86_64 1:2.06-14.amzn2.0.6    amzn2-core             626 k
+     replacing  grub2-tools.x86_64 1:2.06-14.amzn2.0.4
+ kernel              x86_64 5.10.236-227.928.amzn2 amzn2extra-kernel-5.10  34 M
+ python2-lockfile    noarch 1:0.11.0-17.el7        epel                    29 k
+     replacing  python-lockfile.noarch 1:0.9.1-4.amzn2
+ python2-simplejson  x86_64 3.11.1-1.el7           epel                   188 k
+     replacing  python-simplejson.x86_64 3.2.0-1.amzn2.0.2
+Updating:
+ amazon-cloudwatch-agent
+                     x86_64 1.300052.1-1.amzn2     amzn2-core             114 M
+ amazon-ssm-agent    x86_64 3.3.1957.0-1.amzn2     amzn2-core              53 M
+ amd-ucode-firmware  noarch 20200421-84.git78c0348.amzn2
+                                                   amzn2-core              99 k
+ aws-cfn-bootstrap   noarch 2.0-34.amzn2           amzn2-core             753 k
+ binutils            x86_64 2.29.1-31.amzn2.0.2    amzn2-core             5.8 M
+ cloud-init          noarch 19.3-46.amzn2.0.5      amzn2-core             928 k
+ containerd          x86_64 1.7.27-1.amzn2.0.2     amzn2extra-docker       31 M
+ curl                x86_64 8.3.0-1.amzn2.0.9      amzn2-core             383 k
+ docker              x86_64 25.0.8-1.amzn2.0.3     amzn2extra-docker       45 M
+ expat               x86_64 2.1.0-15.amzn2.0.5     amzn2-core              89 k
+ freetype            x86_64 2.8-14.amzn2.1.4       amzn2-core             374 k
+ glib2               x86_64 2.56.1-9.amzn2.0.9     amzn2-core             2.4 M
+ glibc               x86_64 2.26-64.amzn2.0.4      amzn2-core             3.3 M
+ glibc-all-langpacks x86_64 2.26-64.amzn2.0.4      amzn2-core             7.0 M
+ glibc-common        x86_64 2.26-64.amzn2.0.4      amzn2-core             774 k
+ glibc-locale-source x86_64 2.26-64.amzn2.0.4      amzn2-core             3.2 M
+ glibc-minimal-langpack
+                     x86_64 2.26-64.amzn2.0.4      amzn2-core              34 k
+ grub2-common        noarch 1:2.06-14.amzn2.0.6    amzn2-core             1.8 M
+ grub2-efi-x64-ec2   x86_64 1:2.06-14.amzn2.0.6    amzn2-core             287 k
+ grub2-pc-modules    noarch 1:2.06-14.amzn2.0.6    amzn2-core             944 k
+ kernel-tools        x86_64 5.10.236-227.928.amzn2 amzn2extra-kernel-5.10 222 k
+ libcap              x86_64 2.54-1.amzn2.0.3       amzn2-core              73 k
+ libcrypt            x86_64 2.26-64.amzn2.0.4      amzn2-core              54 k
+ libcurl             x86_64 8.3.0-1.amzn2.0.9      amzn2-core             354 k
+ libxml2             x86_64 2.9.1-6.amzn2.5.16     amzn2-core             662 k
+ libxml2-python      x86_64 2.9.1-6.amzn2.5.16     amzn2-core             247 k
+ microcode_ctl       x86_64 2:2.1-47.amzn2.4.24    amzn2-core             1.7 M
+ nginx               x86_64 1:1.26.3-1.amzn2.0.1   amzn2extra-nginx1       51 k
+ nginx-core          x86_64 1:1.26.3-1.amzn2.0.1   amzn2extra-nginx1      639 k
+ nginx-filesystem    noarch 1:1.26.3-1.amzn2.0.1   amzn2extra-nginx1       25 k
+ openssh             x86_64 7.4p1-22.amzn2.0.9     amzn2-core             484 k
+ openssh-clients     x86_64 7.4p1-22.amzn2.0.9     amzn2-core             654 k
+ openssh-server      x86_64 7.4p1-22.amzn2.0.9     amzn2-core             458 k
+ openssl             x86_64 1:1.0.2k-24.amzn2.0.15 amzn2-core             498 k
+ openssl-libs        x86_64 1:1.0.2k-24.amzn2.0.15 amzn2-core             1.2 M
+ openssl11-libs      x86_64 1:1.1.1zb-1.amzn2.0.1  amzn2-core             1.4 M
+ python              x86_64 2.7.18-1.amzn2.0.12    amzn2-core              94 k
+ python-devel        x86_64 2.7.18-1.amzn2.0.12    amzn2-core             404 k
+ python-ipaddress    noarch 1.0.16-2.amzn2.0.3     amzn2-core              35 k
+ python-jinja2       noarch 2.7.2-3.amzn2.0.4      amzn2-core             525 k
+ python-jwcrypto     noarch 0.4.2-1.amzn2.0.2      amzn2-core              58 k
+ python-libs         x86_64 2.7.18-1.amzn2.0.12    amzn2-core             7.5 M
+ python-pillow       x86_64 2.0.0-23.gitd1c6db8.amzn2.0.16
+                                                   amzn2-core             447 k
+ python-requests     noarch 2.6.0-10.amzn2.0.5     amzn2-core              95 k
+ tzdata              noarch 2025b-1.amzn2.0.1      amzn2-core             483 k
+ vim-common          x86_64 2:9.0.2153-1.amzn2.0.4 amzn2-core             8.0 M
+ vim-data            noarch 2:9.0.2153-1.amzn2.0.4 amzn2-core              83 k
+ vim-enhanced        x86_64 2:9.0.2153-1.amzn2.0.4 amzn2-core             1.6 M
+ vim-filesystem      noarch 2:9.0.2153-1.amzn2.0.4 amzn2-core              78 k
+ vim-minimal         x86_64 2:9.0.2153-1.amzn2.0.4 amzn2-core             756 k
+ xxd                 x86_64 2:9.0.2153-1.amzn2.0.4 amzn2-core              95 k
+
+Transaction Summary
+================================================================================
+Install   9 Packages
+Upgrade  51 Packages
+
+Total download size: 339 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+--------------------------------------------------------------------------------
+Total                                               64 MB/s | 339 MB  00:05     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : 1:grub2-common-2.06-14.amzn2.0.6.noarch                    1/117 
+  Updating   : 1:nginx-filesystem-1.26.3-1.amzn2.0.1.noarch               2/117 
+  Updating   : 2:vim-data-9.0.2153-1.amzn2.0.4.noarch                     3/117 
+  Updating   : 1:grub2-pc-modules-2.06-14.amzn2.0.6.noarch                4/117 
+  Updating   : tzdata-2025b-1.amzn2.0.1.noarch                            5/117 
+  Updating   : glibc-common-2.26-64.amzn2.0.4.x86_64                      6/117 
+  Updating   : glibc-2.26-64.amzn2.0.4.x86_64                             7/117 
+  Updating   : glibc-minimal-langpack-2.26-64.amzn2.0.4.x86_64            8/117 
+  Updating   : 1:openssl-libs-1.0.2k-24.amzn2.0.15.x86_64                 9/117 
+  Updating   : libcrypt-2.26-64.amzn2.0.4.x86_64                         10/117 
+  Installing : 1:grub2-tools-minimal-2.06-14.amzn2.0.6.x86_64            11/117 
+  Updating   : openssh-7.4p1-22.amzn2.0.9.x86_64                         12/117 
+  Installing : 1:grub2-tools-2.06-14.amzn2.0.6.x86_64                    13/117 
+  Updating   : freetype-2.8-14.amzn2.1.4.x86_64                          14/117 
+  Installing : 1:grub2-pc-2.06-14.amzn2.0.6.x86_64                       15/117 
+  Updating   : libcurl-8.3.0-1.amzn2.0.9.x86_64                          16/117 
+  Updating   : 2:xxd-9.0.2153-1.amzn2.0.4.x86_64                         17/117 
+  Updating   : 1:openssl11-libs-1.1.1zb-1.amzn2.0.1.x86_64               18/117 
+  Updating   : 1:nginx-core-1.26.3-1.amzn2.0.1.x86_64                    19/117 
+  Updating   : libcap-2.54-1.amzn2.0.3.x86_64                            20/117 
+  Updating   : 2:microcode_ctl-2.1-47.amzn2.4.24.x86_64                  21/117 
+  Updating   : containerd-1.7.27-1.amzn2.0.2.x86_64                      22/117 
+  Updating   : expat-2.1.0-15.amzn2.0.5.x86_64                           23/117 
+  Updating   : python-libs-2.7.18-1.amzn2.0.12.x86_64                    24/117 
+  Updating   : python-2.7.18-1.amzn2.0.12.x86_64                         25/117 
+  Updating   : python-devel-2.7.18-1.amzn2.0.12.x86_64                   26/117 
+  Updating   : python-requests-2.6.0-10.amzn2.0.5.noarch                 27/117 
+  Updating   : python-ipaddress-1.0.16-2.amzn2.0.3.noarch                28/117 
+  Updating   : python-jinja2-2.7.2-3.amzn2.0.4.noarch                    29/117 
+  Updating   : libxml2-2.9.1-6.amzn2.5.16.x86_64                         30/117 
+  Updating   : amd-ucode-firmware-20200421-84.git78c0348.amzn2.noarch    31/117 
+  Updating   : 2:vim-filesystem-9.0.2153-1.amzn2.0.4.noarch              32/117 
+  Updating   : 2:vim-common-9.0.2153-1.amzn2.0.4.x86_64                  33/117 
+  Updating   : 2:vim-enhanced-9.0.2153-1.amzn2.0.4.x86_64                34/117 
+  Installing : kernel-5.10.236-227.928.amzn2.x86_64                      35/117 
+  Updating   : libxml2-python-2.9.1-6.amzn2.5.16.x86_64                  36/117 
+  Updating   : cloud-init-19.3-46.amzn2.0.5.noarch                       37/117 
+  Installing : 1:python2-lockfile-0.11.0-17.el7.noarch                   38/117 
+  Updating   : python-pillow-2.0.0-23.gitd1c6db8.amzn2.0.16.x86_64       39/117 
+  Installing : python2-simplejson-3.11.1-1.el7.x86_64                    40/117 
+  Updating   : python-jwcrypto-0.4.2-1.amzn2.0.2.noarch                  41/117 
+  Updating   : docker-25.0.8-1.amzn2.0.3.x86_64                          42/117 
+  Updating   : kernel-tools-5.10.236-227.928.amzn2.x86_64                43/117 
+  Updating   : 1:nginx-1.26.3-1.amzn2.0.1.x86_64                         44/117 
+  Updating   : curl-8.3.0-1.amzn2.0.9.x86_64                             45/117 
+  Installing : 1:grub2-2.06-14.amzn2.0.6.x86_64                          46/117 
+  Installing : 1:grub2-tools-extra-2.06-14.amzn2.0.6.x86_64              47/117 
+  Updating   : 1:grub2-efi-x64-ec2-2.06-14.amzn2.0.6.x86_64              48/117 
+  Updating   : openssh-clients-7.4p1-22.amzn2.0.9.x86_64                 49/117 
+  Updating   : openssh-server-7.4p1-22.amzn2.0.9.x86_64                  50/117 
+  Updating   : 1:openssl-1.0.2k-24.amzn2.0.15.x86_64                     51/117 
+  Updating   : glibc-all-langpacks-2.26-64.amzn2.0.4.x86_64              52/117 
+  Updating   : 2:vim-minimal-9.0.2153-1.amzn2.0.4.x86_64                 53/117 
+  Updating   : glib2-2.56.1-9.amzn2.0.9.x86_64                           54/117 
+  Installing : 1:grub2-tools-efi-2.06-14.amzn2.0.6.x86_64                55/117 
+  Updating   : binutils-2.29.1-31.amzn2.0.2.x86_64                       56/117 
+  Updating   : glibc-locale-source-2.26-64.amzn2.0.4.x86_64              57/117 
+  Updating   : amazon-ssm-agent-3.3.1957.0-1.amzn2.x86_64                58/117 
+
+****** processing amazon-cloudwatch-agent ******
+amazon-cloudwatch-agent has already been stopped
+  Updating   : amazon-cloudwatch-agent-1.300052.1-1.amzn2.x86_64         59/117 
+  Updating   : aws-cfn-bootstrap-2.0-34.amzn2.noarch                     60/117 
+  Cleanup    : libxml2-python-2.9.1-6.amzn2.5.14.x86_64                  61/117 
+  Cleanup    : python-pillow-2.0.0-23.gitd1c6db8.amzn2.0.13.x86_64       62/117 
+  Cleanup    : openssh-server-7.4p1-22.amzn2.0.8.x86_64                  63/117 
+  Cleanup    : curl-8.3.0-1.amzn2.0.8.x86_64                             64/117 
+  Cleanup    : openssh-clients-7.4p1-22.amzn2.0.8.x86_64                 65/117 
+  Cleanup    : cloud-init-19.3-46.amzn2.0.4.noarch                       66/117 
+  Cleanup    : python-devel-2.7.18-1.amzn2.0.10.x86_64                   67/117 
+  Cleanup    : 1:grub2-efi-x64-ec2-2.06-14.amzn2.0.4.x86_64              68/117 
+  Cleanup    : 1:nginx-1.22.1-1.amzn2.0.4.x86_64                         69/117 
+  Cleanup    : glibc-locale-source-2.26-64.amzn2.0.3.x86_64              70/117 
+  Cleanup    : glibc-all-langpacks-2.26-64.amzn2.0.3.x86_64              71/117 
+  Cleanup    : python-jinja2-2.7.2-3.amzn2.0.3.noarch                    72/117 
+  Cleanup    : python-requests-2.6.0-10.amzn2.0.3.noarch                 73/117 
+  Cleanup    : python-jwcrypto-0.4.2-1.amzn2.0.1.noarch                  74/117 
+  Cleanup    : python-ipaddress-1.0.16-2.amzn2.0.2.noarch                75/117 
+  Cleanup    : 1:grub2-2.06-14.amzn2.0.4.x86_64                          76/117 
+  Cleanup    : 1:grub2-pc-2.06-14.amzn2.0.4.x86_64                       77/117 
+  Cleanup    : 1:grub2-pc-modules-2.06-14.amzn2.0.4.noarch               78/117 
+  Erasing    : 1:python-lockfile-0.9.1-4.amzn2.noarch                    79/117 
+  Cleanup    : 1:nginx-core-1.22.1-1.amzn2.0.4.x86_64                    80/117 
+  Cleanup    : libcurl-8.3.0-1.amzn2.0.8.x86_64                          81/117 
+  Cleanup    : 1:openssl-1.0.2k-24.amzn2.0.14.x86_64                     82/117 
+  Cleanup    : openssh-7.4p1-22.amzn2.0.8.x86_64                         83/117 
+  Erasing    : python-simplejson-3.2.0-1.amzn2.0.2.x86_64                84/117 
+  Cleanup    : python-2.7.18-1.amzn2.0.10.x86_64                         85/117 
+  Cleanup    : python-libs-2.7.18-1.amzn2.0.10.x86_64                    86/117 
+  Cleanup    : kernel-tools-5.10.233-224.894.amzn2.x86_64                87/117 
+  Cleanup    : 1:grub2-tools-minimal-2.06-14.amzn2.0.4.x86_64            88/117 
+  Cleanup    : 1:grub2-tools-2.06-14.amzn2.0.4.x86_64                    89/117 
+  Cleanup    : docker-25.0.6-1.amzn2.0.3.x86_64                          90/117 
+  Cleanup    : 2:vim-minimal-9.0.2153-1.amzn2.0.2.x86_64                 91/117 
+  Cleanup    : 2:vim-enhanced-9.0.2153-1.amzn2.0.2.x86_64                92/117 
+  Cleanup    : 2:vim-common-9.0.2153-1.amzn2.0.2.x86_64                  93/117 
+  Cleanup    : 2:xxd-9.0.2153-1.amzn2.0.2.x86_64                         94/117 
+  Cleanup    : containerd-1.7.25-1.amzn2.0.1.x86_64                      95/117 
+  Cleanup    : libcap-2.54-1.amzn2.0.2.x86_64                            96/117 
+  Cleanup    : expat-2.1.0-15.amzn2.0.4.x86_64                           97/117 
+  Cleanup    : libcrypt-2.26-64.amzn2.0.3.x86_64                         98/117 
+  Cleanup    : 1:openssl-libs-1.0.2k-24.amzn2.0.14.x86_64                99/117 
+  Cleanup    : 1:openssl11-libs-1.1.1za-1.amzn2.0.1.x86_64              100/117 
+  Cleanup    : freetype-2.8-14.amzn2.1.2.x86_64                         101/117 
+  Cleanup    : libxml2-2.9.1-6.amzn2.5.14.x86_64                        102/117 
+  Cleanup    : binutils-2.29.1-31.amzn2.0.1.x86_64                      103/117 
+  Cleanup    : glib2-2.56.1-9.amzn2.0.8.x86_64                          104/117 
+  Cleanup    : 2:microcode_ctl-2.1-47.amzn2.4.22.x86_64                 105/117 
+  Cleanup    : 2:vim-data-9.0.2153-1.amzn2.0.2.noarch                   106/117 
+  Cleanup    : 2:vim-filesystem-9.0.2153-1.amzn2.0.2.noarch             107/117 
+  Cleanup    : 1:grub2-common-2.06-14.amzn2.0.4.noarch                  108/117 
+  Cleanup    : 1:nginx-filesystem-1.22.1-1.amzn2.0.4.noarch             109/117 
+  Cleanup    : amazon-ssm-agent-3.3.1611.0-1.amzn2.x86_64               110/117 
+  Cleanup    : amazon-cloudwatch-agent-1.300044.0-1.amzn2.x86_64        111/117 
+  Cleanup    : amd-ucode-firmware-20200421-83.git78c0348.amzn2.noarch   112/117 
+  Cleanup    : aws-cfn-bootstrap-2.0-32.amzn2.noarch                    113/117 
+  Cleanup    : glibc-common-2.26-64.amzn2.0.3.x86_64                    114/117 
+  Cleanup    : glibc-minimal-langpack-2.26-64.amzn2.0.3.x86_64          115/117 
+  Cleanup    : glibc-2.26-64.amzn2.0.3.x86_64                           116/117 
+  Cleanup    : tzdata-2024a-1.amzn2.0.1.noarch                          117/117 
+/sbin/dracut: line 655: warning: setlocale: LC_MESSAGES: cannot change locale (en_US.UTF-8): No such file or directory
+/sbin/dracut: line 656: warning: setlocale: LC_CTYPE: cannot change locale (en_US.UTF-8): No such file or directory
+/sbin/dracut: line 655: warning: setlocale: LC_MESSAGES: cannot change locale (en_US.UTF-8): No such file or directory
+/sbin/dracut: line 656: warning: setlocale: LC_CTYPE: cannot change locale (en_US.UTF-8): No such file or directory
+/sbin/dracut: line 655: warning: setlocale: LC_MESSAGES: cannot change locale (en_US.UTF-8): No such file or directory
+/sbin/dracut: line 656: warning: setlocale: LC_CTYPE: cannot change locale (en_US.UTF-8): No such file or directory
+/sbin/dracut: line 655: warning: setlocale: LC_MESSAGES: cannot change locale (en_US.UTF-8): No such file or directory
+/sbin/dracut: line 656: warning: setlocale: LC_CTYPE: cannot change locale (en_US.UTF-8): No such file or directory
+  Verifying  : openssh-clients-7.4p1-22.amzn2.0.9.x86_64                  1/117 
+  Verifying  : 1:python2-lockfile-0.11.0-17.el7.noarch                    2/117 
+  Verifying  : libxml2-python-2.9.1-6.amzn2.5.16.x86_64                   3/117 
+  Verifying  : glibc-all-langpacks-2.26-64.amzn2.0.4.x86_64               4/117 
+  Verifying  : 2:xxd-9.0.2153-1.amzn2.0.4.x86_64                          5/117 
+  Verifying  : 2:vim-filesystem-9.0.2153-1.amzn2.0.4.noarch               6/117 
+  Verifying  : 1:openssl11-libs-1.1.1zb-1.amzn2.0.1.x86_64                7/117 
+  Verifying  : 1:grub2-pc-2.06-14.amzn2.0.6.x86_64                        8/117 
+  Verifying  : libcap-2.54-1.amzn2.0.3.x86_64                             9/117 
+  Verifying  : 2:microcode_ctl-2.1-47.amzn2.4.24.x86_64                  10/117 
+  Verifying  : containerd-1.7.27-1.amzn2.0.2.x86_64                      11/117 
+  Verifying  : 1:openssl-libs-1.0.2k-24.amzn2.0.15.x86_64                12/117 
+  Verifying  : 2:vim-data-9.0.2153-1.amzn2.0.4.noarch                    13/117 
+  Verifying  : 2:vim-enhanced-9.0.2153-1.amzn2.0.4.x86_64                14/117 
+  Verifying  : 1:grub2-pc-modules-2.06-14.amzn2.0.6.noarch               15/117 
+  Verifying  : python-devel-2.7.18-1.amzn2.0.12.x86_64                   16/117 
+  Verifying  : expat-2.1.0-15.amzn2.0.5.x86_64                           17/117 
+  Verifying  : aws-cfn-bootstrap-2.0-34.amzn2.noarch                     18/117 
+  Verifying  : kernel-5.10.236-227.928.amzn2.x86_64                      19/117 
+  Verifying  : 1:grub2-common-2.06-14.amzn2.0.6.noarch                   20/117 
+  Verifying  : 1:grub2-efi-x64-ec2-2.06-14.amzn2.0.6.x86_64              21/117 
+  Verifying  : libcrypt-2.26-64.amzn2.0.4.x86_64                         22/117 
+  Verifying  : 1:grub2-2.06-14.amzn2.0.6.x86_64                          23/117 
+  Verifying  : glibc-minimal-langpack-2.26-64.amzn2.0.4.x86_64           24/117 
+  Verifying  : python-pillow-2.0.0-23.gitd1c6db8.amzn2.0.16.x86_64       25/117 
+  Verifying  : cloud-init-19.3-46.amzn2.0.5.noarch                       26/117 
+  Verifying  : 2:vim-minimal-9.0.2153-1.amzn2.0.4.x86_64                 27/117 
+  Verifying  : 1:grub2-tools-2.06-14.amzn2.0.6.x86_64                    28/117 
+  Verifying  : python2-simplejson-3.11.1-1.el7.x86_64                    29/117 
+  Verifying  : 1:openssl-1.0.2k-24.amzn2.0.15.x86_64                     30/117 
+  Verifying  : python-requests-2.6.0-10.amzn2.0.5.noarch                 31/117 
+  Verifying  : glib2-2.56.1-9.amzn2.0.9.x86_64                           32/117 
+  Verifying  : 1:grub2-tools-minimal-2.06-14.amzn2.0.6.x86_64            33/117 
+  Verifying  : curl-8.3.0-1.amzn2.0.9.x86_64                             34/117 
+  Verifying  : glibc-common-2.26-64.amzn2.0.4.x86_64                     35/117 
+  Verifying  : python-2.7.18-1.amzn2.0.12.x86_64                         36/117 
+  Verifying  : libxml2-2.9.1-6.amzn2.5.16.x86_64                         37/117 
+  Verifying  : python-ipaddress-1.0.16-2.amzn2.0.3.noarch                38/117 
+  Verifying  : 1:grub2-tools-efi-2.06-14.amzn2.0.6.x86_64                39/117 
+  Verifying  : docker-25.0.8-1.amzn2.0.3.x86_64                          40/117 
+  Verifying  : glibc-2.26-64.amzn2.0.4.x86_64                            41/117 
+  Verifying  : python-jwcrypto-0.4.2-1.amzn2.0.2.noarch                  42/117 
+  Verifying  : libcurl-8.3.0-1.amzn2.0.9.x86_64                          43/117 
+  Verifying  : 1:nginx-core-1.26.3-1.amzn2.0.1.x86_64                    44/117 
+  Verifying  : python-libs-2.7.18-1.amzn2.0.12.x86_64                    45/117 
+  Verifying  : kernel-tools-5.10.236-227.928.amzn2.x86_64                46/117 
+  Verifying  : 1:grub2-tools-extra-2.06-14.amzn2.0.6.x86_64              47/117 
+  Verifying  : binutils-2.29.1-31.amzn2.0.2.x86_64                       48/117 
+  Verifying  : amd-ucode-firmware-20200421-84.git78c0348.amzn2.noarch    49/117 
+  Verifying  : freetype-2.8-14.amzn2.1.4.x86_64                          50/117 
+  Verifying  : glibc-locale-source-2.26-64.amzn2.0.4.x86_64              51/117 
+  Verifying  : amazon-cloudwatch-agent-1.300052.1-1.amzn2.x86_64         52/117 
+  Verifying  : openssh-7.4p1-22.amzn2.0.9.x86_64                         53/117 
+  Verifying  : 1:nginx-filesystem-1.26.3-1.amzn2.0.1.noarch              54/117 
+  Verifying  : 1:nginx-1.26.3-1.amzn2.0.1.x86_64                         55/117 
+  Verifying  : python-jinja2-2.7.2-3.amzn2.0.4.noarch                    56/117 
+  Verifying  : tzdata-2025b-1.amzn2.0.1.noarch                           57/117 
+  Verifying  : amazon-ssm-agent-3.3.1957.0-1.amzn2.x86_64                58/117 
+  Verifying  : 2:vim-common-9.0.2153-1.amzn2.0.4.x86_64                  59/117 
+  Verifying  : openssh-server-7.4p1-22.amzn2.0.9.x86_64                  60/117 
+  Verifying  : openssh-7.4p1-22.amzn2.0.8.x86_64                         61/117 
+  Verifying  : python-simplejson-3.2.0-1.amzn2.0.2.x86_64                62/117 
+  Verifying  : 1:nginx-filesystem-1.22.1-1.amzn2.0.4.noarch              63/117 
+  Verifying  : 2:microcode_ctl-2.1-47.amzn2.4.22.x86_64                  64/117 
+  Verifying  : expat-2.1.0-15.amzn2.0.4.x86_64                           65/117 
+  Verifying  : amazon-ssm-agent-3.3.1611.0-1.amzn2.x86_64                66/117 
+  Verifying  : python-jwcrypto-0.4.2-1.amzn2.0.1.noarch                  67/117 
+  Verifying  : python-ipaddress-1.0.16-2.amzn2.0.2.noarch                68/117 
+  Verifying  : glibc-all-langpacks-2.26-64.amzn2.0.3.x86_64              69/117 
+  Verifying  : cloud-init-19.3-46.amzn2.0.4.noarch                       70/117 
+  Verifying  : 2:vim-common-9.0.2153-1.amzn2.0.2.x86_64                  71/117 
+  Verifying  : 2:vim-filesystem-9.0.2153-1.amzn2.0.2.noarch              72/117 
+  Verifying  : glibc-locale-source-2.26-64.amzn2.0.3.x86_64              73/117 
+  Verifying  : 1:openssl-1.0.2k-24.amzn2.0.14.x86_64                     74/117 
+  Verifying  : tzdata-2024a-1.amzn2.0.1.noarch                           75/117 
+  Verifying  : docker-25.0.6-1.amzn2.0.3.x86_64                          76/117 
+  Verifying  : 1:grub2-tools-minimal-2.06-14.amzn2.0.4.x86_64            77/117 
+  Verifying  : libcap-2.54-1.amzn2.0.2.x86_64                            78/117 
+  Verifying  : 1:openssl-libs-1.0.2k-24.amzn2.0.14.x86_64                79/117 
+  Verifying  : python-2.7.18-1.amzn2.0.10.x86_64                         80/117 
+  Verifying  : kernel-tools-5.10.233-224.894.amzn2.x86_64                81/117 
+  Verifying  : 1:nginx-1.22.1-1.amzn2.0.4.x86_64                         82/117 
+  Verifying  : python-requests-2.6.0-10.amzn2.0.3.noarch                 83/117 
+  Verifying  : binutils-2.29.1-31.amzn2.0.1.x86_64                       84/117 
+  Verifying  : python-libs-2.7.18-1.amzn2.0.10.x86_64                    85/117 
+  Verifying  : 1:grub2-pc-modules-2.06-14.amzn2.0.4.noarch               86/117 
+  Verifying  : python-devel-2.7.18-1.amzn2.0.10.x86_64                   87/117 
+  Verifying  : 1:grub2-common-2.06-14.amzn2.0.4.noarch                   88/117 
+  Verifying  : 1:grub2-efi-x64-ec2-2.06-14.amzn2.0.4.x86_64              89/117 
+  Verifying  : libcrypt-2.26-64.amzn2.0.3.x86_64                         90/117 
+  Verifying  : 1:grub2-2.06-14.amzn2.0.4.x86_64                          91/117 
+  Verifying  : 1:openssl11-libs-1.1.1za-1.amzn2.0.1.x86_64               92/117 
+  Verifying  : amazon-cloudwatch-agent-1.300044.0-1.amzn2.x86_64         93/117 
+  Verifying  : aws-cfn-bootstrap-2.0-32.amzn2.noarch                     94/117 
+  Verifying  : freetype-2.8-14.amzn2.1.2.x86_64                          95/117 
+  Verifying  : curl-8.3.0-1.amzn2.0.8.x86_64                             96/117 
+  Verifying  : libxml2-python-2.9.1-6.amzn2.5.14.x86_64                  97/117 
+  Verifying  : glib2-2.56.1-9.amzn2.0.8.x86_64                           98/117 
+  Verifying  : glibc-minimal-langpack-2.26-64.amzn2.0.3.x86_64           99/117 
+  Verifying  : 1:grub2-tools-2.06-14.amzn2.0.4.x86_64                   100/117 
+  Verifying  : containerd-1.7.25-1.amzn2.0.1.x86_64                     101/117 
+  Verifying  : openssh-server-7.4p1-22.amzn2.0.8.x86_64                 102/117 
+  Verifying  : 2:xxd-9.0.2153-1.amzn2.0.2.x86_64                        103/117 
+  Verifying  : glibc-2.26-64.amzn2.0.3.x86_64                           104/117 
+  Verifying  : python-pillow-2.0.0-23.gitd1c6db8.amzn2.0.13.x86_64      105/117 
+  Verifying  : 1:nginx-core-1.22.1-1.amzn2.0.4.x86_64                   106/117 
+  Verifying  : openssh-clients-7.4p1-22.amzn2.0.8.x86_64                107/117 
+  Verifying  : libcurl-8.3.0-1.amzn2.0.8.x86_64                         108/117 
+  Verifying  : 1:grub2-pc-2.06-14.amzn2.0.4.x86_64                      109/117 
+  Verifying  : python-jinja2-2.7.2-3.amzn2.0.3.noarch                   110/117 
+  Verifying  : glibc-common-2.26-64.amzn2.0.3.x86_64                    111/117 
+  Verifying  : 2:vim-data-9.0.2153-1.amzn2.0.2.noarch                   112/117 
+  Verifying  : 1:python-lockfile-0.9.1-4.amzn2.noarch                   113/117 
+  Verifying  : 2:vim-enhanced-9.0.2153-1.amzn2.0.2.x86_64               114/117 
+  Verifying  : amd-ucode-firmware-20200421-83.git78c0348.amzn2.noarch   115/117 
+  Verifying  : libxml2-2.9.1-6.amzn2.5.14.x86_64                        116/117 
+  Verifying  : 2:vim-minimal-9.0.2153-1.amzn2.0.2.x86_64                117/117 
+
+Installed:
+  grub2.x86_64 1:2.06-14.amzn2.0.6                                              
+  grub2-pc.x86_64 1:2.06-14.amzn2.0.6                                           
+  grub2-tools.x86_64 1:2.06-14.amzn2.0.6                                        
+  grub2-tools-efi.x86_64 1:2.06-14.amzn2.0.6                                    
+  grub2-tools-extra.x86_64 1:2.06-14.amzn2.0.6                                  
+  grub2-tools-minimal.x86_64 1:2.06-14.amzn2.0.6                                
+  kernel.x86_64 0:5.10.236-227.928.amzn2                                        
+  python2-lockfile.noarch 1:0.11.0-17.el7                                       
+  python2-simplejson.x86_64 0:3.11.1-1.el7                                      
+
+Updated:
+  amazon-cloudwatch-agent.x86_64 0:1.300052.1-1.amzn2                           
+  amazon-ssm-agent.x86_64 0:3.3.1957.0-1.amzn2                                  
+  amd-ucode-firmware.noarch 0:20200421-84.git78c0348.amzn2                      
+  aws-cfn-bootstrap.noarch 0:2.0-34.amzn2                                       
+  binutils.x86_64 0:2.29.1-31.amzn2.0.2                                         
+  cloud-init.noarch 0:19.3-46.amzn2.0.5                                         
+  containerd.x86_64 0:1.7.27-1.amzn2.0.2                                        
+  curl.x86_64 0:8.3.0-1.amzn2.0.9                                               
+  docker.x86_64 0:25.0.8-1.amzn2.0.3                                            
+  expat.x86_64 0:2.1.0-15.amzn2.0.5                                             
+  freetype.x86_64 0:2.8-14.amzn2.1.4                                            
+  glib2.x86_64 0:2.56.1-9.amzn2.0.9                                             
+  glibc.x86_64 0:2.26-64.amzn2.0.4                                              
+  glibc-all-langpacks.x86_64 0:2.26-64.amzn2.0.4                                
+  glibc-common.x86_64 0:2.26-64.amzn2.0.4                                       
+  glibc-locale-source.x86_64 0:2.26-64.amzn2.0.4                                
+  glibc-minimal-langpack.x86_64 0:2.26-64.amzn2.0.4                             
+  grub2-common.noarch 1:2.06-14.amzn2.0.6                                       
+  grub2-efi-x64-ec2.x86_64 1:2.06-14.amzn2.0.6                                  
+  grub2-pc-modules.noarch 1:2.06-14.amzn2.0.6                                   
+  kernel-tools.x86_64 0:5.10.236-227.928.amzn2                                  
+  libcap.x86_64 0:2.54-1.amzn2.0.3                                              
+  libcrypt.x86_64 0:2.26-64.amzn2.0.4                                           
+  libcurl.x86_64 0:8.3.0-1.amzn2.0.9                                            
+  libxml2.x86_64 0:2.9.1-6.amzn2.5.16                                           
+  libxml2-python.x86_64 0:2.9.1-6.amzn2.5.16                                    
+  microcode_ctl.x86_64 2:2.1-47.amzn2.4.24                                      
+  nginx.x86_64 1:1.26.3-1.amzn2.0.1                                             
+  nginx-core.x86_64 1:1.26.3-1.amzn2.0.1                                        
+  nginx-filesystem.noarch 1:1.26.3-1.amzn2.0.1                                  
+  openssh.x86_64 0:7.4p1-22.amzn2.0.9                                           
+  openssh-clients.x86_64 0:7.4p1-22.amzn2.0.9                                   
+  openssh-server.x86_64 0:7.4p1-22.amzn2.0.9                                    
+  openssl.x86_64 1:1.0.2k-24.amzn2.0.15                                         
+  openssl-libs.x86_64 1:1.0.2k-24.amzn2.0.15                                    
+  openssl11-libs.x86_64 1:1.1.1zb-1.amzn2.0.1                                   
+  python.x86_64 0:2.7.18-1.amzn2.0.12                                           
+  python-devel.x86_64 0:2.7.18-1.amzn2.0.12                                     
+  python-ipaddress.noarch 0:1.0.16-2.amzn2.0.3                                  
+  python-jinja2.noarch 0:2.7.2-3.amzn2.0.4                                      
+  python-jwcrypto.noarch 0:0.4.2-1.amzn2.0.2                                    
+  python-libs.x86_64 0:2.7.18-1.amzn2.0.12                                      
+  python-pillow.x86_64 0:2.0.0-23.gitd1c6db8.amzn2.0.16                         
+  python-requests.noarch 0:2.6.0-10.amzn2.0.5                                   
+  tzdata.noarch 0:2025b-1.amzn2.0.1                                             
+  vim-common.x86_64 2:9.0.2153-1.amzn2.0.4                                      
+  vim-data.noarch 2:9.0.2153-1.amzn2.0.4                                        
+  vim-enhanced.x86_64 2:9.0.2153-1.amzn2.0.4                                    
+  vim-filesystem.noarch 2:9.0.2153-1.amzn2.0.4                                  
+  vim-minimal.x86_64 2:9.0.2153-1.amzn2.0.4                                     
+  xxd.x86_64 2:9.0.2153-1.amzn2.0.4                                             
+
+Replaced:
+  grub2.x86_64 1:2.06-14.amzn2.0.4                                              
+  grub2-tools.x86_64 1:2.06-14.amzn2.0.4                                        
+  python-lockfile.noarch 1:0.9.1-4.amzn2                                        
+  python-simplejson.x86_64 0:3.2.0-1.amzn2.0.2                                  
+
+Complete!
+[2025-05-08 21:51:16] System update completed successfully.
