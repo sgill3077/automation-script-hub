@@ -3,6 +3,11 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/sgill3077/automation-script-hub?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/sgill3077/automation-script-hub)
+![Repo Size](https://img.shields.io/github/repo-size/sgill3077/automation-script-hub)
+![Issues](https://img.shields.io/github/issues/sgill3077/automation-script-hub)
+![Pull Requests](https://img.shields.io/github/issues-pr/sgill3077/automation-script-hub)
 
 **Automation Script Hub** is a curated collection of modular Bash scripts that automate and simplify routine system administration tasks in Linux/Unix environments — ideal for DevOps engineers, SysAdmins, and power users.
 
