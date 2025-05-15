@@ -1,0 +1,10 @@
+[2025-05-10 03:00:01] Starting system patching...
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Cleaning repos: amzn2-core amzn2extra-docker amzn2extra-epel
+              : amzn2extra-kernel-5.10 amzn2extra-nginx1 epel
+Cleaning up everything
+Maybe you want: rm -rf /var/cache/yum, to also free up space taken by orphaned data from disabled or removed repos
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+239 packages excluded due to repository priority protections
+No packages marked for update
+[2025-05-10 03:00:12] System update completed successfully.

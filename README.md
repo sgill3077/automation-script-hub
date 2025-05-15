@@ -1,7 +1,8 @@
-# 🛠️ Automation Script Hub
+# ⚙️ Automation Script Hub
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue)
+![PowerShell](https://img.shields.io/badge/PowerShell-Windows-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![GitHub stars](https://img.shields.io/github/stars/sgill3077/automation-script-hub?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/sgill3077/automation-script-hub)
@@ -9,71 +10,85 @@
 ![Issues](https://img.shields.io/github/issues/sgill3077/automation-script-hub)
 ![Pull Requests](https://img.shields.io/github/issues-pr/sgill3077/automation-script-hub)
 
-**Automation Script Hub** is a curated collection of modular Bash scripts that automate and simplify routine system administration tasks in Linux/Unix environments — ideal for DevOps engineers, SysAdmins, and power users.
+**Automation Script Hub** is a cross-platform toolkit of modular scripts built for automating and simplifying routine system administration tasks — designed for DevOps engineers, SysAdmins, and power users on both Linux and Windows.
 
 ---
 
 ## 🔧 Features
 
-- Modular script design for reusability and customization  
-- Interactive CLI menus for ease of use  
-- Robust logging and error handling  
-- Lightweight and fast — no external dependencies  
+- Modular and scalable script design
+- Interactive CLI menus for both Bash and PowerShell
+- Centralized logging for auditing and debugging
+- Robust error handling and status reporting
+- Lightweight with no external dependencies
 
 ---
 
 ## 🚀 Use Cases
 
-- Automatically patch and update servers  
-- Restart and monitor essential services  
-- Clean up temp, cache, and log files  
-- Perform system health checks and generate reports  
+- Auto-patching Linux and Windows servers
+- Restarting and monitoring stuck services
+- Cleaning temporary files and logs
+- Running system health checks and diagnostics
 
 ---
 
 ## 💻 Tech Stack
 
-- **Shell Scripting:** Bash  
-- **Version Control:** Git  
-- **System Utilities:** `cron`, `systemctl`, `journalctl`, `awk`, `sed`  
+- **Linux:** Bash, system utilities (`cron`, `systemctl`, `journalctl`)
+- **Windows:** PowerShell (cross-compatible with PowerShell Core)
+- **Version Control:** Git
 
 ---
 
 ## 📁 Directory Structure
 
-```
-automation-script-hub/          <-- Main project folder (repo root)
-├── scripts/                    <-- Contains all the automation scripts
-│   ├── patch_manager.sh        <-- Patching system script
-│   ├── service_recovery.sh     <-- Monitor & restart services script
-│   └── log_cleaner.sh          <-- Clean logs and temp files script
-│   └── health_check.sh         <-- Check system health (disk, CPU, etc.)
-├── logs/                       <-- Where logs from scripts are stored
-├── LICENSE                     <-- License for your project
-├── README.md                   <-- Project documentation
-└── setup.sh                    <-- A setup script for initial configuration
-
+```bash
+automation-script-hub/
+├── linux/                      # Linux automation scripts (Bash)
+│   ├── patch_manager.sh
+│   ├── service_recovery.sh
+│   ├── log_cleaner.sh
+│   ├── health_check.sh
+│   └── logs/                   # Linux script logs
+├── windows/                    # Windows automation scripts (PowerShell)
+│   ├── cli.ps1                 # CLI menu entry point
+│   ├── patch_system.ps1
+│   ├── restart_services.ps1
+│   ├── clean_logs.ps1
+│   ├── utils.ps1               # Shared functions/utilities
+│   └── logs/                   # Windows script logs
+├── setup.sh                    # Optional Linux setup script
+├── LICENSE
+└── README.md
 ```
 
 ---
 
-## 📌 Getting Started
+## ▶️ Getting Started
 
-Clone the repository and start using the scripts:
-
+### 🔹 On Linux
 ```bash
-git clone git@github.com:sgill3077/automation-script-hub.git
-cd automation-script-hub
-chmod +x scripts/*.sh
-./scripts/patch_manager.sh
+git clone https://github.com/sgill3077/automation-script-hub.git
+cd automation-script-hub/linux
+chmod +x *.sh
+./patch_manager.sh
+```
+
+### 🔹 On Windows
+Launch PowerShell as Administrator and run:
+```powershell
+git clone https://github.com/sgill3077/automation-script-hub.git
+cd automation-script-hub\windows
+.\cli.ps1
 ```
 
 ---
 
-## 🧪 Example Output
+## 🧪 Example Linux Output
 
 ```bash
-$ ./scripts/patch_manager.sh
+$ ./patch_manager.sh
 [INFO] Checking for available updates...
 [INFO] Installing security updates...
 [OK] System successfully patched.
@@ -81,25 +96,21 @@ $ ./scripts/patch_manager.sh
 
 ---
 
-## 📈 Future Plans
+## 📈 Roadmap
 
-- Add support for macOS tools  
-- Slack/email alerts for script outputs  
-- GUI wrapper (e.g., Zenity or YAD)  
+- [ ] Add macOS support
+- [ ] Email/Slack alerts for script output
+- [ ] Web dashboard or GUI wrapper (e.g. YAD, Electron)
+- [ ] Unit testing for core utilities
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to propose.
+Pull requests are welcome! For large changes, please open an issue first to discuss your ideas. All contributions must follow the [MIT License](./LICENSE).
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
-<<<<<<< HEAD
-=======
-
->>>>>>> b1a02e7 (Committing local changes before pull)
+Distributed under the MIT License. See [LICENSE](./LICENSE) for full text.

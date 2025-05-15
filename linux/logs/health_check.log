@@ -1,0 +1,172 @@
+[2025-05-08 22:28:59] Running system health check...
+[2025-05-08 22:28:59] Checking disk usage...
+[2025-05-08 22:28:59] OK: Disk usage on  is %.
+[2025-05-08 22:28:59] OK: Disk usage on  is %.
+[2025-05-08 22:28:59] OK: Disk usage on  is %.
+[2025-05-08 22:28:59] OK: Disk usage on  is %.
+[2025-05-08 22:28:59] OK: Disk usage on  is %.
+[2025-05-08 22:28:59] OK: Disk usage on  is %.
+[2025-05-08 22:28:59] Checking memory usage...
+[2025-05-08 22:28:59] OK: Memory usage is 17%.
+[2025-05-08 22:28:59] Checking CPU load...
+[2025-05-08 22:28:59] OK: CPU load is 0.00
+[2025-05-08 22:28:59] Uptime: up 3 weeks, 5 days, 6 hours, 20 minutes
+[2025-05-08 22:28:59] Top 5 memory-consuming processes:
+USER COMMAND %MEM%
+root /usr/bin/dockerd 7.7%
+root /usr/lib/systemd/systemd-journald 5.2%
+root /usr/bin/containerd 4.7%
+root /usr/sbin/rsyslogd 2.6%
+root /usr/bin/amazon-ssm-agent 1.7%
+[2025-05-08 22:28:59] Health check completed.
+[2025-05-08 22:30:48] Running system health check...
+[2025-05-08 22:30:48] Checking disk usage...
+[2025-05-08 22:30:48] OK: Disk usage on /dev is 0%.
+[2025-05-08 22:30:48] OK: Disk usage on /dev/shm is 0%.
+[2025-05-08 22:30:48] OK: Disk usage on /run is 1%.
+[2025-05-08 22:30:48] OK: Disk usage on /sys/fs/cgroup is 0%.
+[2025-05-08 22:30:48] OK: Disk usage on / is 23%.
+[2025-05-08 22:30:48] OK: Disk usage on /run/user/1000 is 0%.
+[2025-05-08 22:30:48] Checking memory usage...
+[2025-05-08 22:30:48] OK: Memory usage is 17%.
+[2025-05-08 22:30:48] Checking CPU load...
+[2025-05-08 22:30:48] OK: CPU load is 0.00
+[2025-05-08 22:30:48] Uptime: up 3 weeks, 5 days, 6 hours, 22 minutes
+[2025-05-08 22:30:48] Top 5 memory-consuming processes:
+USER COMMAND %MEM%
+root /usr/bin/dockerd 7.7%
+root /usr/lib/systemd/systemd-journald 5.2%
+root /usr/bin/containerd 4.7%
+root /usr/sbin/rsyslogd 2.6%
+root /usr/bin/amazon-ssm-agent 1.7%
+[2025-05-08 22:30:48] Health check completed.
+[2025-05-09 06:00:01] Running system health check...
+[2025-05-09 06:00:01] Checking disk usage...
+[2025-05-09 06:00:01] OK: Disk usage on /dev is 0%.
+[2025-05-09 06:00:01] OK: Disk usage on /dev/shm is 0%.
+[2025-05-09 06:00:01] OK: Disk usage on /run is 1%.
+[2025-05-09 06:00:01] OK: Disk usage on /sys/fs/cgroup is 0%.
+[2025-05-09 06:00:01] OK: Disk usage on / is 23%.
+[2025-05-09 06:00:01] OK: Disk usage on /run/user/0 is 0%.
+[2025-05-09 06:00:01] Checking memory usage...
+[2025-05-09 06:00:01] OK: Memory usage is 21%.
+[2025-05-09 06:00:01] Checking CPU load...
+[2025-05-09 06:00:01] OK: CPU load is 0.02
+[2025-05-09 06:00:01] Uptime: up 3 weeks, 5 days, 13 hours, 51 minutes
+[2025-05-09 06:00:01] Top 5 memory-consuming processes:
+USER COMMAND %MEM%
+root /usr/lib/systemd/systemd-journald 5.9%
+root /usr/bin/dockerd 3.9%
+root /usr/bin/containerd 2.1%
+root /usr/bin/perl 2.1%
+root /usr/bin/perl 2.0%
+[2025-05-09 06:00:01] Health check completed.
+[2025-05-10 06:00:01] Running system health check...
+[2025-05-10 06:00:01] Checking disk usage...
+[2025-05-10 06:00:01] OK: Disk usage on /dev is 0%.
+[2025-05-10 06:00:01] OK: Disk usage on /dev/shm is 0%.
+[2025-05-10 06:00:01] OK: Disk usage on /run is 1%.
+[2025-05-10 06:00:01] OK: Disk usage on /sys/fs/cgroup is 0%.
+[2025-05-10 06:00:01] OK: Disk usage on / is 23%.
+[2025-05-10 06:00:01] OK: Disk usage on /run/user/1000 is 0%.
+[2025-05-10 06:00:01] OK: Disk usage on /run/user/0 is 0%.
+[2025-05-10 06:00:01] Checking memory usage...
+[2025-05-10 06:00:01] OK: Memory usage is 22%.
+[2025-05-10 06:00:01] Checking CPU load...
+[2025-05-10 06:00:01] OK: CPU load is 0.00
+[2025-05-10 06:00:01] Uptime: up 3 weeks, 6 days, 13 hours, 51 minutes
+[2025-05-10 06:00:01] Top 5 memory-consuming processes:
+USER COMMAND %MEM%
+root /usr/lib/systemd/systemd-journald 9.6%
+root /usr/sbin/rsyslogd 4.2%
+root /usr/bin/dockerd 3.2%
+root /usr/bin/perl 2.2%
+root /usr/bin/perl 2.0%
+[2025-05-10 06:00:01] Health check completed.
+[2025-05-11 06:00:01] Running system health check...
+[2025-05-11 06:00:01] Checking disk usage...
+[2025-05-11 06:00:01] OK: Disk usage on /dev is 0%.
+[2025-05-11 06:00:01] OK: Disk usage on /dev/shm is 0%.
+[2025-05-11 06:00:01] OK: Disk usage on /run is 1%.
+[2025-05-11 06:00:01] OK: Disk usage on /sys/fs/cgroup is 0%.
+[2025-05-11 06:00:01] OK: Disk usage on / is 23%.
+[2025-05-11 06:00:01] OK: Disk usage on /run/user/0 is 0%.
+[2025-05-11 06:00:01] OK: Disk usage on /run/user/1000 is 0%.
+[2025-05-11 06:00:01] Checking memory usage...
+[2025-05-11 06:00:01] OK: Memory usage is 21%.
+[2025-05-11 06:00:01] Checking CPU load...
+[2025-05-11 06:00:01] OK: CPU load is 0.00
+[2025-05-11 06:00:01] Uptime: up 4 weeks, 13 hours, 51 minutes
+[2025-05-11 06:00:01] Top 5 memory-consuming processes:
+USER COMMAND %MEM%
+root /usr/lib/systemd/systemd-journald 4.6%
+root /usr/sbin/rsyslogd 3.3%
+root /usr/bin/dockerd 3.1%
+root /usr/bin/perl 2.1%
+root /usr/bin/perl 2.0%
+[2025-05-11 06:00:01] Health check completed.
+[2025-05-12 06:00:01] Running system health check...
+[2025-05-12 06:00:01] Checking disk usage...
+[2025-05-12 06:00:01] OK: Disk usage on /dev is 0%.
+[2025-05-12 06:00:01] OK: Disk usage on /dev/shm is 0%.
+[2025-05-12 06:00:01] OK: Disk usage on /run is 1%.
+[2025-05-12 06:00:01] OK: Disk usage on /sys/fs/cgroup is 0%.
+[2025-05-12 06:00:01] OK: Disk usage on / is 23%.
+[2025-05-12 06:00:01] OK: Disk usage on /run/user/0 is 0%.
+[2025-05-12 06:00:01] Checking memory usage...
+[2025-05-12 06:00:01] OK: Memory usage is 21%.
+[2025-05-12 06:00:01] Checking CPU load...
+[2025-05-12 06:00:01] OK: CPU load is 0.02
+[2025-05-12 06:00:01] Uptime: up 4 weeks, 1 day, 13 hours, 51 minutes
+[2025-05-12 06:00:01] Top 5 memory-consuming processes:
+USER COMMAND %MEM%
+root /usr/lib/systemd/systemd-journald 8.5%
+root /usr/sbin/rsyslogd 5.4%
+root /usr/bin/dockerd 3.0%
+root /usr/bin/perl 2.0%
+root /usr/bin/containerd 1.5%
+[2025-05-12 06:00:01] Health check completed.
+[2025-05-13 06:00:01] Running system health check...
+[2025-05-13 06:00:01] Checking disk usage...
+[2025-05-13 06:00:01] OK: Disk usage on /dev is 0%.
+[2025-05-13 06:00:01] OK: Disk usage on /dev/shm is 0%.
+[2025-05-13 06:00:01] OK: Disk usage on /run is 1%.
+[2025-05-13 06:00:01] OK: Disk usage on /sys/fs/cgroup is 0%.
+[2025-05-13 06:00:01] OK: Disk usage on / is 24%.
+[2025-05-13 06:00:01] OK: Disk usage on /run/user/0 is 0%.
+[2025-05-13 06:00:01] OK: Disk usage on /run/user/1000 is 0%.
+[2025-05-13 06:00:01] Checking memory usage...
+[2025-05-13 06:00:01] OK: Memory usage is 21%.
+[2025-05-13 06:00:01] Checking CPU load...
+[2025-05-13 06:00:01] OK: CPU load is 0.00
+[2025-05-13 06:00:01] Uptime: up 4 weeks, 2 days, 13 hours, 51 minutes
+[2025-05-13 06:00:01] Top 5 memory-consuming processes:
+USER COMMAND %MEM%
+root /usr/bin/dockerd 3.0%
+root /usr/lib/systemd/systemd-journald 2.3%
+root /usr/bin/perl 2.1%
+root /usr/bin/perl 2.0%
+root /usr/bin/containerd 1.6%
+[2025-05-13 06:00:01] Health check completed.
+[2025-05-14 06:00:01] Running system health check...
+[2025-05-14 06:00:01] Checking disk usage...
+[2025-05-14 06:00:01] OK: Disk usage on /dev is 0%.
+[2025-05-14 06:00:01] OK: Disk usage on /dev/shm is 0%.
+[2025-05-14 06:00:01] OK: Disk usage on /run is 1%.
+[2025-05-14 06:00:01] OK: Disk usage on /sys/fs/cgroup is 0%.
+[2025-05-14 06:00:01] OK: Disk usage on / is 24%.
+[2025-05-14 06:00:01] OK: Disk usage on /run/user/1000 is 0%.
+[2025-05-14 06:00:01] OK: Disk usage on /run/user/0 is 0%.
+[2025-05-14 06:00:01] Checking memory usage...
+[2025-05-14 06:00:01] OK: Memory usage is 22%.
+[2025-05-14 06:00:01] Checking CPU load...
+[2025-05-14 06:00:01] OK: CPU load is 0.01
+[2025-05-14 06:00:01] Uptime: up 4 weeks, 3 days, 13 hours, 51 minutes
+[2025-05-14 06:00:01] Top 5 memory-consuming processes:
+USER COMMAND %MEM%
+root /usr/lib/systemd/systemd-journald 5.1%
+root /usr/bin/dockerd 3.0%
+root /usr/bin/perl 2.0%
+root /usr/sbin/rsyslogd 1.9%
+root /usr/bin/containerd 1.6%
+[2025-05-14 06:00:01] Health check completed.

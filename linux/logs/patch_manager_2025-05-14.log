@@ -1,0 +1,118 @@
+[2025-05-14 03:00:01] Starting system patching...
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Cleaning repos: amzn2-core amzn2extra-docker amzn2extra-epel
+              : amzn2extra-kernel-5.10 amzn2extra-nginx1 epel
+Cleaning up everything
+Maybe you want: rm -rf /var/cache/yum, to also free up space taken by orphaned data from disabled or removed repos
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+239 packages excluded due to repository priority protections
+Resolving Dependencies
+--> Running transaction check
+---> Package amazon-cloudwatch-agent.x86_64 0:1.300052.1-1.amzn2 will be updated
+---> Package amazon-cloudwatch-agent.x86_64 0:1.300054.1-2.amzn2 will be an update
+---> Package kernel.x86_64 0:5.10.236-228.935.amzn2 will be installed
+---> Package kernel-tools.x86_64 0:5.10.236-227.928.amzn2 will be updated
+---> Package kernel-tools.x86_64 0:5.10.236-228.935.amzn2 will be an update
+---> Package python2-rpm.x86_64 0:4.11.3-48.amzn2.0.4 will be updated
+---> Package python2-rpm.x86_64 0:4.11.3-48.amzn2.0.5 will be an update
+---> Package rpm.x86_64 0:4.11.3-48.amzn2.0.4 will be updated
+---> Package rpm.x86_64 0:4.11.3-48.amzn2.0.5 will be an update
+---> Package rpm-build-libs.x86_64 0:4.11.3-48.amzn2.0.4 will be updated
+---> Package rpm-build-libs.x86_64 0:4.11.3-48.amzn2.0.5 will be an update
+---> Package rpm-libs.x86_64 0:4.11.3-48.amzn2.0.4 will be updated
+---> Package rpm-libs.x86_64 0:4.11.3-48.amzn2.0.5 will be an update
+---> Package rpm-plugin-systemd-inhibit.x86_64 0:4.11.3-48.amzn2.0.4 will be updated
+---> Package rpm-plugin-systemd-inhibit.x86_64 0:4.11.3-48.amzn2.0.5 will be an update
+--> Finished Dependency Resolution
+--> Running transaction check
+---> Package kernel.x86_64 0:5.10.233-223.887.amzn2 will be erased
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch   Version                Repository              Size
+================================================================================
+Installing:
+ kernel              x86_64 5.10.236-228.935.amzn2 amzn2extra-kernel-5.10  34 M
+Updating:
+ amazon-cloudwatch-agent
+                     x86_64 1.300054.1-2.amzn2     amzn2-core             120 M
+ kernel-tools        x86_64 5.10.236-228.935.amzn2 amzn2extra-kernel-5.10 209 k
+ python2-rpm         x86_64 4.11.3-48.amzn2.0.5    amzn2-core              85 k
+ rpm                 x86_64 4.11.3-48.amzn2.0.5    amzn2-core             1.2 M
+ rpm-build-libs      x86_64 4.11.3-48.amzn2.0.5    amzn2-core             107 k
+ rpm-libs            x86_64 4.11.3-48.amzn2.0.5    amzn2-core             277 k
+ rpm-plugin-systemd-inhibit
+                     x86_64 4.11.3-48.amzn2.0.5    amzn2-core              48 k
+Removing:
+ kernel              x86_64 5.10.233-223.887.amzn2 installed              142 M
+
+Transaction Summary
+================================================================================
+Install  1 Package
+Upgrade  7 Packages
+Remove   1 Package
+
+Total download size: 155 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+--------------------------------------------------------------------------------
+Total                                               79 MB/s | 155 MB  00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : rpm-4.11.3-48.amzn2.0.5.x86_64                              1/16 
+  Updating   : rpm-libs-4.11.3-48.amzn2.0.5.x86_64                         2/16 
+  Updating   : rpm-build-libs-4.11.3-48.amzn2.0.5.x86_64                   3/16 
+  Updating   : python2-rpm-4.11.3-48.amzn2.0.5.x86_64                      4/16 
+  Updating   : rpm-plugin-systemd-inhibit-4.11.3-48.amzn2.0.5.x86_64       5/16 
+
+****** processing amazon-cloudwatch-agent ******
+amazon-cloudwatch-agent has already been stopped
+  Updating   : amazon-cloudwatch-agent-1.300054.1-2.amzn2.x86_64           6/16 
+  Updating   : kernel-tools-5.10.236-228.935.amzn2.x86_64                  7/16 
+  Installing : kernel-5.10.236-228.935.amzn2.x86_64                        8/16 
+  Cleanup    : amazon-cloudwatch-agent-1.300052.1-1.amzn2.x86_64           9/16 
+  Cleanup    : kernel-5.10.233-223.887.amzn2.x86_64                       10/16 
+  Cleanup    : python2-rpm-4.11.3-48.amzn2.0.4.x86_64                     11/16 
+  Cleanup    : rpm-build-libs-4.11.3-48.amzn2.0.4.x86_64                  12/16 
+  Cleanup    : rpm-plugin-systemd-inhibit-4.11.3-48.amzn2.0.4.x86_64      13/16 
+  Cleanup    : rpm-4.11.3-48.amzn2.0.4.x86_64                             14/16 
+  Cleanup    : rpm-libs-4.11.3-48.amzn2.0.4.x86_64                        15/16 
+  Cleanup    : kernel-tools-5.10.236-227.928.amzn2.x86_64                 16/16 
+  Verifying  : rpm-libs-4.11.3-48.amzn2.0.5.x86_64                         1/16 
+  Verifying  : kernel-5.10.236-228.935.amzn2.x86_64                        2/16 
+  Verifying  : kernel-tools-5.10.236-228.935.amzn2.x86_64                  3/16 
+  Verifying  : rpm-build-libs-4.11.3-48.amzn2.0.5.x86_64                   4/16 
+  Verifying  : rpm-plugin-systemd-inhibit-4.11.3-48.amzn2.0.5.x86_64       5/16 
+  Verifying  : rpm-4.11.3-48.amzn2.0.5.x86_64                              6/16 
+  Verifying  : python2-rpm-4.11.3-48.amzn2.0.5.x86_64                      7/16 
+  Verifying  : amazon-cloudwatch-agent-1.300054.1-2.amzn2.x86_64           8/16 
+  Verifying  : kernel-tools-5.10.236-227.928.amzn2.x86_64                  9/16 
+  Verifying  : python2-rpm-4.11.3-48.amzn2.0.4.x86_64                     10/16 
+  Verifying  : amazon-cloudwatch-agent-1.300052.1-1.amzn2.x86_64          11/16 
+  Verifying  : rpm-4.11.3-48.amzn2.0.4.x86_64                             12/16 
+  Verifying  : kernel-5.10.233-223.887.amzn2.x86_64                       13/16 
+  Verifying  : rpm-build-libs-4.11.3-48.amzn2.0.4.x86_64                  14/16 
+  Verifying  : rpm-libs-4.11.3-48.amzn2.0.4.x86_64                        15/16 
+  Verifying  : rpm-plugin-systemd-inhibit-4.11.3-48.amzn2.0.4.x86_64      16/16 
+
+Removed:
+  kernel.x86_64 0:5.10.233-223.887.amzn2                                        
+
+Installed:
+  kernel.x86_64 0:5.10.236-228.935.amzn2                                        
+
+Updated:
+  amazon-cloudwatch-agent.x86_64 0:1.300054.1-2.amzn2                           
+  kernel-tools.x86_64 0:5.10.236-228.935.amzn2                                  
+  python2-rpm.x86_64 0:4.11.3-48.amzn2.0.5                                      
+  rpm.x86_64 0:4.11.3-48.amzn2.0.5                                              
+  rpm-build-libs.x86_64 0:4.11.3-48.amzn2.0.5                                   
+  rpm-libs.x86_64 0:4.11.3-48.amzn2.0.5                                         
+  rpm-plugin-systemd-inhibit.x86_64 0:4.11.3-48.amzn2.0.5                       
+
+Complete!
+[2025-05-14 03:00:34] System update completed successfully.
