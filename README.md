@@ -10,7 +10,7 @@
 ![Issues](https://img.shields.io/github/issues/sgill3077/automation-script-hub)
 ![Pull Requests](https://img.shields.io/github/issues-pr/sgill3077/automation-script-hub)
 
-**Automation Script Hub** is a cross-platform toolkit of modular scripts built for automating and simplifying routine system administration tasks — designed for DevOps engineers, SysAdmins, and power users on both Linux and Windows.
+**Automation Script Hub** is a cross-platform toolkit of modular scripts built for automating and simplifying routine system administration tasks, designed for DevOps engineers, SysAdmins, and power users on both Linux and Windows.
 
 ---
 
